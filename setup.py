@@ -23,3 +23,4 @@ setup(
     author='Mubarak',
     author_email='xplorre.ai@gmail',
     packages=find_packages()
+)
