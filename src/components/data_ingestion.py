@@ -1,6 +1,6 @@
 import os
 import sys
-#print(sys.path)
+print(sys.path)
 
 from src.exception import CustomException
 from src.logger import logging
