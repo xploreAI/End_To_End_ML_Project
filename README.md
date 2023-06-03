@@ -1,4 +1,4 @@
-# Student Exam Performance Indicator
+# End-To-End ML Project
 
 This project is a student exam performance indicator web application. It predicts the math scores of students based on various factors such as gender, race or ethnicity, parental level of education, lunch type, test preparation course, and reading and writing scores.
 
@@ -32,6 +32,7 @@ The project structure is organized as follows:
 └── train.csv
 
 
+
 - app.py: Main Flask application file containing the routes and logic.
 - setup.py: Python package setup file for the project.
 - src/: Directory containing the project source code.
@@ -45,7 +46,7 @@ The project structure is organized as follows:
   - home.html: Form template for entering student details and displaying predictions.
 - notebook/: Directory containing Jupyter notebooks and related files.
   - catboost_info/: Directory containing CatBoost model information.
-  - data/: Directory containing data files used for exploration, training, and predictions.
+  - data/: Directory containing data files used for exploration and training.
     - stud.csv: Dataset file containing student performance data.
   - EDA student performance.ipynb: Jupyter notebook for exploratory data analysis.
   - Model Training.ipynb: Jupyter notebook for model training.
@@ -55,6 +56,7 @@ The project structure is organized as follows:
   - preprocessor.pkl: Serialized data preprocessor file.
   - test.csv: Test dataset file.
   - train.csv: Training dataset file.
+- requirements.txt: File containing the project dependencies.
 
 ## Installation
 
@@ -62,11 +64,11 @@ To run the web application locally, follow these steps:
 
 1. Clone the repository:
 
-   `git clone https://github.com/your-username/student-performance-indicator.git`
+   `git clone https://github.com/xploreAI/End_To_End_ML_Project.git`
 
 2. Navigate to the project directory:
 
-   `cd student-performance-indicator`
+   `cd End_To_End_ML_Project`
 
 3. Create a virtual environment:
 
@@ -96,48 +98,3 @@ To run the web application locally, follow these steps:
 
 3. The predicted math score for the student will be displayed.
 
-## License
-
-This project is licensed under the [MIT License](LICENSE).
-
-
-## Installation
-
-To run the web application locally, follow these steps:
-
-1. Clone the repository:
-
-   git clone https://github.com/your-username/student-performance-indicator.git
-
-2. Navigate to the project directory:
-
-   cd student-performance-indicator
-
-3. Create a virtual environment:
-
-   python -m venv env
-
-4. Activate the virtual environment:
-
-   source env/bin/activate  # For Linux/Mac
-   env\Scripts\activate  # For Windows
-
-5. Install the required dependencies:
-
-   pip install -r requirements.txt
-
-6. Start the application:
-
-   python app.py
-
-7. Open your web browser and visit http://localhost:5000 to access the application.
-
-## Usage
-
-1. Open the web application in your browser.
-2. Fill in the student details, including gender, race or ethnicity, parental level of education, lunch type, test preparation course, reading score, and writing score.
-3. Click on the "Predict your Maths Score" button.
-4. The application will display the predicted math score based on the provided student details.
-5. You can enter new details and predict again.
-
-Enjoy using the Student Exam Performance Indicator!
